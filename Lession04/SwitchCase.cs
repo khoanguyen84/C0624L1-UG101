@@ -62,7 +62,7 @@ class SwitchCase
         // }
         #endregion
 
-        switch(month)
+        switch (month)
         {
             case 1:
             case 3:
@@ -73,20 +73,19 @@ class SwitchCase
             case 12:
                 Console.Write("31 days");
                 break;
-            case 2: 
+            case 2:
                 Console.Write("28 or 29 days");
                 break;
-            case 5: 
+            case 5:
             case 6:
             case 9:
             case 11:
                 Console.Write("30 days");
                 break;
-            default: 
+            default:
                 Console.WriteLine("You entered invalid month");
                 Console.WriteLine("Please enter from 1 to 12");
                 break;
         }
-
     }
 }

@@ -5,7 +5,7 @@
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>Lession04.SwitchCase</StartupObject>
+    <StartupObject>Lession04.TernaryOperator</StartupObject>
   </PropertyGroup>
 
 </Project>
