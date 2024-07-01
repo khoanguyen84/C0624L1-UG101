@@ -12,9 +12,11 @@ class NestedLoop
             Console.Write($"{row}\t"); //\t = tab = 1.27cm
             for (int element = 1; element <= elements; element++) //n
             {
+                Console.ForegroundColor = ConsoleColor.Green;                
                 Console.Write("*");
             }
             Console.Write("\n"); //\t = new line 
+            Console.ResetColor();
         }
         // Giả sử dữ liệu đủ lớn
         // Big O = Độ phức tạp của thuật toán = chi phí để thực thi thuật toán => đơn vị thời gian
