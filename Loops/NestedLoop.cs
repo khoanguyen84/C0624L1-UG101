@@ -58,13 +58,36 @@ class NestedLoop
         //     int.TryParse(Console.ReadLine(), out number);
         // }
 
-        int number = 0;
-        Console.Write("Enter number = ");
-        int.TryParse(Console.ReadLine(), out number);
-        for (; number < 2 || number > 9;)
+        // int number = 0;
+        // Console.Write("Enter number = ");
+        // int.TryParse(Console.ReadLine(), out number);
+        // for (; number < 2 || number > 9;)
+        // {
+        //     Console.Write("Enter number = ");
+        //     int.TryParse(Console.ReadLine(), out number);
+        // }
+
+        for (int i = 1; i <= 10; i++)
         {
-            Console.Write("Enter number = ");
-            int.TryParse(Console.ReadLine(), out number);
+            for (int j = 2; j <= 9; j++)
+            {
+                if (i * j > 9)
+                {
+                    if (i < 10)
+                    {
+                        Console.Write($"{j} x {i} = {i * j}   ");
+                    }
+                    else
+                    {
+                        Console.Write($"{j} x {i} = {i * j}  ");
+                    }
+                }
+                else
+                {
+                    Console.Write($"{j} x {i} = {i * j}    ");
+                }
+            }
+            Console.WriteLine();
         }
     }
 }
