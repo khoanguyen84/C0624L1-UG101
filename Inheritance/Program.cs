@@ -10,12 +10,14 @@ class Program
         Console.WriteLine(khoa.Gender);
         Console.WriteLine(khoa.WorkerCode);
         Console.WriteLine(khoa.Salary);
+        Console.WriteLine(khoa.Email);
 
         Student bao = new Student();
         Console.WriteLine(bao.DateOfBirth);
         Console.WriteLine(bao.Fullname);
         Console.WriteLine(bao.Gender);
         Console.WriteLine(bao.StudentCode);
+        Console.WriteLine(bao.Email);
 
         Staff chanh = new Staff();
         Console.WriteLine(chanh.Email);
