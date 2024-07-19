@@ -28,10 +28,32 @@ class Program
         // fuma.GetInfo();
 
         // Shoes snaker = new Shoes();
-        Staff khoa = new Staff("Khoa Nguyen");
-        Staff nhi = new Staff("Nhi Nguyen", 18);
-        Staff trung = new Staff();
-        Console.WriteLine(khoa.Fullname);
-        Console.WriteLine("=============");
+        // Staff khoa = new Staff("Khoa Nguyen");
+        // Staff nhi = new Staff("Nhi Nguyen", 18);
+        // nhi.SetDob(DateTime.Parse("10/10/2000"));
+        // Console.WriteLine(nhi.GetDob());
+        // Staff trung = new Staff();
+        // Console.WriteLine(khoa.Fullname);
+        // Console.WriteLine("=============");
+
+        // Product shoes = new Product();
+        // shoes.Brand = "Nike";
+        // Console.WriteLine(shoes.Title);
+        // shoes.SetRate(5);
+        // Console.WriteLine(shoes.GetRate());
+
+        // shoes.Discount = "0.2";
+        // Console.WriteLine(shoes.Discount);
+
+        Staff khoa = new Staff();
+        khoa.Mobile = "0935216417";
+        Console.WriteLine(khoa.Mobile);
     }
+
+
+    // Access modifier
+    // Public 
+    // internal (default)
+    // private => bên trong class mới được truy cập
+    // protected => những class mối quan hệ với nhau mới truy cập được
 }
