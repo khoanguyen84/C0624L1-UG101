@@ -1,0 +1,4 @@
+interface IEdible
+{
+    void HowToEat();
+}
