@@ -16,7 +16,7 @@ class PhoneBookBK : Phone
         //               length = 3
         string[] contact = new string[] { name, phone };
         // => ["Trung", "119"]
-        PhoneList[2] = contact;
+        PhoneList[PhoneList.Length - 1] = contact;
 
     }
     public override void RemovePhone(string name)
