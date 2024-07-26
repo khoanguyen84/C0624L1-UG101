@@ -24,7 +24,7 @@ class PhoneBook : Phone
         {
             Array.Resize(ref PhoneList, PhoneList.Length + 1);
             Contact contact = new Contact(name, phone);
-            PhoneList[2] = contact;
+            PhoneList[PhoneList.Length - 1] = contact;
         }
         else
         {
