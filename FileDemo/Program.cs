@@ -55,8 +55,10 @@ class Program
         string line;
         using (StreamReader reader = new StreamReader(fs))
         {
-            while((line = reader.ReadLine()) != null)
-             Console.WriteLine($"* - {line}"); 
+            while ((line = reader.ReadLine()) != null)
+            {
+                Console.WriteLine($"* - {line}");
+            }
         }
     }
 }
