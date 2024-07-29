@@ -47,6 +47,13 @@ class Program
         // bước 2: đọc toàn bộ hoặc đọc từng dòng
         // bước 3: đóng file đó lại
         ShowLog();
+        // string str = "4 6 8 9";
+        // string[] numbers = str.Split(" ");
+
+        // for(int i= 0; i< numbers.Length; i++)
+        // {
+        //     Console.WriteLine(numbers[i]);
+        // }
     }
 
     public static void ShowLog()
